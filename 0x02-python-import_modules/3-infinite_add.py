@@ -2,10 +2,9 @@
 if __name__ == "__main__":
 
     try:
-        values = input()
-        separate_values = values.split()
+        values = map(int, input().split())
         total = 0
-        for i in separate_values:
+        for i in values:
             total += int(i)
 
         print(total)
