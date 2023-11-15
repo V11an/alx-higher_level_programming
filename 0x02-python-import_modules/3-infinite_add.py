@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-values = input()
+value = str(input())
+values = value[:140]
 
 def main(values):
     separate_values = values.split()
