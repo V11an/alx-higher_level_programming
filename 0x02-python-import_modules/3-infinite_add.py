@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-values = input()
+try:
+    values = input()
+except EOFError as e:
+    print('\nEOFEerror')
 
 def main(values):
     separate_values = values.split()
