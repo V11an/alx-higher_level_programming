@@ -10,6 +10,6 @@ if __name__ == "__main__":
 
         print(total)
     except EOFError as e:
-        print('\n error')
+        print(e)
 
 
