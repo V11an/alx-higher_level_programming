@@ -3,6 +3,8 @@
 import sys
 
 values = sys.argv[1:]
+
+
 def main(values):
 
     total = 0
@@ -11,6 +13,6 @@ def main(values):
 
     print(total)
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     main(values)
