@@ -4,6 +4,7 @@ import sys
 
 values = sys.argv[1:]
 def main(values):
+
     total = 0
     for i in values:
         total += eval(i)
@@ -11,4 +12,5 @@ def main(values):
     print(total)
 
 if __name__ == "__main__":
+
     main(values)
