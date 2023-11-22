@@ -2,6 +2,7 @@
 
 """Define classes for singly-linked list."""
 
+
 class Node:
     """Represent node in a singly-linked list."""
 
